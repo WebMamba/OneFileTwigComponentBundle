@@ -1,0 +1,22 @@
+{
+    "name": "webmamba/one-file-twig-component-bundle",
+    "description": "Let you create your Twig Component with template, CSS, an, and Javascript in one file",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webmamba\\OneFileTwigComponentBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheo Daninos",
+            "email": "matheo.daninos@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/ux-twig-component": "^2.22",
+        "symfony/cache": "^7.2",
+        "symfony/framework-bundle": "^7.2"
+    }
+}
